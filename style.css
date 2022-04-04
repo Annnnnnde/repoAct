@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+   }
+   *, *::before, *::after {
+    box-sizing: inherit;
+   }
+   
+p {
+    margin: 15px;
+    font-size: 17px;
+    color: #000;
+}
+.header{
+    margin: 15px;
+    font-size: 17px;
+    color: #000;
+}
+
+.box{
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    transform: translate( auto );
+    padding: 20px;
+    width: 3in;
+    height: 4in;
+}
+
+.PhotoDesc{
+    margin: 9px;
+    font-size: 15px;
+    color: #000;
+}
+.page-content{
+    margin: -20px;
+    font-size: large;
+    color: #000;
+}
+.preview{
+    width: 90%;
+    max-width: 700px;
+    border: 1px solid #4D4E53;
+    border-radius: 2px;
+    padding: 10px 14px 10px 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    margin: 17px;
+    font-size: 17px;
+    color: #000;
+}
